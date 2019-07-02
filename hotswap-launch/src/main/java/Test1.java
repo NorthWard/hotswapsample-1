@@ -14,4 +14,8 @@ public class Test1 implements T1 {
     public void sayHello(){
         System.out.println("Test2");
     }
+
+    public void sayHello1(String a, int b){
+        System.out.println("Test2" + a + b);
+    }
 }

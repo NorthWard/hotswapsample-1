@@ -3,7 +3,9 @@
  * Copyright (c) 2010-2018 All Rights Reserved.
  */
 
+/*
 import com.sun.tools.attach.VirtualMachine;
+*/
 
 /**
  * <p></p>
@@ -14,7 +16,7 @@ import com.sun.tools.attach.VirtualMachine;
 public class Launcher {
 
     public static void install(String pid, String agentPath) throws Exception {
-        VirtualMachine vmObj = null;
+/*        VirtualMachine vmObj = null;
         try {
             vmObj = VirtualMachine.attach(pid);
             if (vmObj != null) {
@@ -25,6 +27,6 @@ public class Launcher {
             if (null != vmObj) {
                 vmObj.detach();
             }
-        }
+        }*/
     }
 }
